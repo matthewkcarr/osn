@@ -13,3 +13,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+/config/development.sphinx.conf
+/db/sphinx/
+/log/searchd.development.pid
+/public/system/

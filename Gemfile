@@ -24,6 +24,7 @@ end
 gem 'jquery-rails'
 gem 'rspec-rails'
 
+#gem 'thinking-sphinx', '~> 3.0.2'
 gem 'social_stream', '>= 1.0.0'
 
 # To use ActiveModel has_secure_password

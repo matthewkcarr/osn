@@ -1,0 +1,5 @@
+# make sure sphinx is installed and searchd is available on the command line.
+# the conf file can be the minimized version and stored in /etc/sphinx.conf
+rake ts:start
+rake ts:index #this needs to be run a new info is put into the system, - maybe a few times a day
+
