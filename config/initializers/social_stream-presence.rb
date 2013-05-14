@@ -2,17 +2,17 @@ SocialStream::Presence.setup do |config|
   #Configures Web Server Domain served by XMPP Server
   config.domain = "localhost"
   #Configures Bosh Service Path
-  #config.bosh_service = "http://xmpp-proxy/http-bind"
+  config.bosh_service = "http://localhost/http-bind"
   #Configures Authentication Method: "cookie" or "password"
   config.auth_method = "cookie"
   #Configures XMPP Server Password
-  config.xmpp_server_password = "007c34352018e4001ce1bf3916001295"
+  config.xmpp_server_password = "4415c547a765ed957c0145941420e82d"
   #Uncomment to enable REST API Security
   #config.secure_rest_api = true
   #Remote or local mode
   config.remote_xmpp_server = false
   #Scripts path to execute ejabberd scripts: local or remote
-  config.scripts_path = "/scripts_path"
+  config.scripts_path = "~/scripts/jabber"
   #Ejabberd module path in the xmpp server
   config.ejabberd_module_path = "/usr/lib/ejabberd/ebin"
   #Uncomment to enable Social Stream Presence
@@ -29,7 +29,7 @@ SocialStream::Presence.setup do |config|
   #Username of the the Social Stream Admin sid
   config.social_stream_presence_username = "social_stream-presence"
   #Configures Social Stream Rails App Password
-  config.password = "e77a74b066b5a9c7a5f66c3023d7218e3e39b86799de260a755f09e812ae740e"
+  config.password = "f60c6a19d4b2f264d2f13f0908b77b29243a0459f2311793a338be619e1eb141"
   
   #OpenTok settings (Only for videochat)
   #Replace with your OpenTok API key.
