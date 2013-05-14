@@ -12,11 +12,11 @@ SocialStream::Presence.setup do |config|
   #Remote or local mode
   config.remote_xmpp_server = false
   #Scripts path to execute ejabberd scripts: local or remote
-  config.scripts_path = "~/scripts/jabber"
+  config.scripts_path = "~/scripts/jabber/sstream_ejabberd_files/ejabberd_scripts"
   #Ejabberd module path in the xmpp server
   config.ejabberd_module_path = "/usr/lib/ejabberd/ebin"
   #Uncomment to enable Social Stream Presence
-  #config.enable = true
+  config.enable = true
   
   #Parameters for remote mode
   #SSH Login

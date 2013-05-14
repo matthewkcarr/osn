@@ -1,0 +1,21 @@
+
+
+#install jabber 
+#jabber config in
+/etc/ejabberd
+#and make sure 
+ejabbberdctl start
+#or
+ejabberd start
+#runs
+
+#make sure you can access http-bind or localhost:5222/http-bind
+#and you get help page - through the reverse proxy as well
+
+#add users to jabber db
+bundle exec rake presence:synchronize:rosters
+
+#synch connections
+rake presence:synchronize:connections
+
+#logs in /var/log/ejabberd
