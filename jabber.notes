@@ -9,6 +9,11 @@ ejabbberdctl start
 ejabberd start
 #runs
 
+#logs
+/usr/local/var/log/ejabberd
+#and
+/var/log/ejabberd
+
 #make sure you can access http-bind or localhost:5222/http-bind
 #and you get help page - through the reverse proxy as well
 
