@@ -1,5 +1,8 @@
 
 
+#modules
+/usr/lib/ejabberd/ebin/
+
 #install jabber 
 #jabber config in
 /etc/ejabberd
@@ -9,9 +12,10 @@ ejabbberdctl start
 ejabberd start
 #runs
 
-#logs
+#logs for brew
 /usr/local/var/log/ejabberd
-#and
+
+#normal logs 
 /var/log/ejabberd
 
 #make sure you can access http-bind or localhost:5222/http-bind
