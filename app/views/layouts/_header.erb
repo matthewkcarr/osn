@@ -1,5 +1,15 @@
-<% if user_signed_in? %>
-  <%= render :partial => 'layouts/header_signed_in' %>
-  <% else %>
-  <%= render :partial => 'layouts/header_signed_out' %>
-<% end %>
+<div class="logo-header">
+  <div class="bricks">
+  </div>
+  <div class="container-fluid logo">
+    <% if user_signed_in? %>
+      <div class="wrapper"> <!-- this is weird right now -->
+        <%= render :partial => 'layouts/header_signed_in' %>
+      </div>
+    <% else %>
+      <%= render :partial => 'layouts/logo' %>
+    <% end %>
+  </div>
+  <div class="gray-border">
+  </div>
+</div>

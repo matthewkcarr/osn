@@ -32,19 +32,9 @@
     </script>
   </head>
   
-  <body>
-    <div class="logo-header">
-      <div class="bricks">
-      </div>
-      <div class="container-fluid logo">
-        <%= link_to(image_tag('logo_top.png', class: "logo", :alt => t('site.name')), root_path) %>
-        <div class="wrapper"> <!-- this is weird right now -->
-          <%= render :partial => "layouts/header" %>
-        </div>
-      </div>
-      <div class="gray-border">
-      </div>
-    </div>
+  <body class="<%= controller.controller_name.downcase %> <%= user_signed_in? ? "signed_in": "signed_out" %>">
+
+    <%= render :partial => "layouts/header" %>
 
     <div class="container-fluid content">
       <div class="wrapper">

@@ -2,3 +2,8 @@
 #	modified:   app/views/layouts/_footer.html.erb
 #	modified:   app/views/layouts/_logo_out.html.erb
 #	modified:   app/views/layouts/application.html.erb
+    
+#	modified:   app/views/layouts/_header.erb
+#	modified:   app/views/layouts/_header_signed_in.erb
+#	modified:   app/views/layouts/_logo_in.html.erb
+#	modified:   config/locales/en.yml

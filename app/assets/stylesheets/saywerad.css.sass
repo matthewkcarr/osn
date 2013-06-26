@@ -2,6 +2,8 @@
 $purple: #7c627b
 $dark_purple: #5f405e
 
+/* all pages / frontpage */
+
 a
   color: $purple
   text-decoration: underline
@@ -14,10 +16,13 @@ a:hover, a:focus
 
 .logo-header
   background-color: white
+  .logo_image
+    margin-top: 0px
 
 .logo
   min-height: 35px
 
+  
 .headerFront .logo
   margin-top: 0
 
@@ -56,6 +61,17 @@ input[type="submit"]
 input[type="submit"]:hover
   background-color: $purple !important
 
+.activities .wall_input input[type="submit"]
+  text-decoration: none
+  background-color: $purple
+  border-color: $purple
+
+.activities .wall_input input[type="submit"]:hover
+  border: 1px solid $purple
+  background-color: white !important
+  text-decoration: none
+  color: $purple
+
 .characteristics .img 
   vertical-align: middle
   width: 265px
@@ -89,3 +105,35 @@ input[type="submit"]:hover
   width: 186px
   height: 39px
   
+
+/* home */
+header .navbar-inner .search-nav
+  margin-top: -9px
+
+header .navbar-inner .explore-nav
+  margin-top: 14px
+  line-height: 1em
+  height: 1em
+
+header .navbar-inner .logo, header .navbar-inner .logo-responsive
+  padding: 0
+
+
+#sidebar #suggestions .contact .add .btn-group button, #sidebar #pendings .contact .add .btn-group button
+  border: 1px solid $purple
+  background-color: white !important
+  text-decoration: none
+  color: $purple
+
+#sidebar #suggestions .contact .add .btn-group button:hover, #sidebar #pendings .contact .add .btn-group button:hover
+  background-color: $purple !important
+
+#sidebar #suggestions .contact .add .btn-group button .caret, #sidebar #pendings .contact .add .btn-group button .caret, .activities .wall_input .form-privacy .btn-group button .caret
+  border-bottom-color: $purple
+  border-top-color: $purple
+
+.activities .wall_input .form-privacy .btn-group button
+  border: 1px solid $purple
+
+.activities .wall_input .form-privacy .btn-group button:hover
+  background-color: $purple !important
