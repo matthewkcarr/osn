@@ -267,25 +267,17 @@ en:
       other: '%{count} followers'
   forgot_password: Forgot you password?
   frontpage:
-    main_title: Social Stream, the core for building distributed social network websites.
+    main_title: Say We Rad, a social network for orphaned, fostered, and adopted people.
     presentation:
       modular:
-        header: Modular
-        p: Available <a href="https://github.com/ging/social_stream#social-stream-components">Social
-          Stream components</a> provide your application only with the features you
-          need in your social network. Just add your desired gems to your Gemfile
+        header: Adopted
+        p: Adopted people now have their space where they can connect and find others who have been adopted, or did not grow up with their natural parents. 
       flexible:
-        header: Flexible
-        p: Completely customize your social network <a href="https://github.com/ging/social_stream/wiki/How-to-change-controllers%2C-models%2C-views%2C-assets-and-locales">changing
-          any Social Stream component</a>, <a href="https://github.com/ging/social_stream/wiki/How-to-add-new-activity-objects">adding
-          new activity objects</a> or changing the CSS using <a href="http://sass-lang.com/">Sass</a>
+        header: Fostered
+        p: Fostered people can now connect with others that have a similar situation. With this network they may find some comfort that they are not alone.  
       community:
-        header: Community
-        p: Social Stream enjoys a growing community of developers. Feel free to drop
-          a message at <a href="http://groups.google.com/group/social-stream">Social
-          Stream's Google group</a> or <a href="http://stackoverflow.com/questions/tagged/social-stream">StackOverflow</a>
-          if you have problems. <a href="https://github.com/ging/social_stream/issues/new">Open
-          an issue</a> if you find a defect. Pull request are very welcomed!
+        header: Orphaned
+        p: Orphaned people who will never have any chance to know their parents can now find others like them, or connect with others who did have a chance to know their parents.
     stats: '%{users} users and %{groups} groups registered'
   group:
     one: group
@@ -611,7 +603,7 @@ en:
   sign_out: Sign out
   sign_up: Sign up
   site:
-    name: Social Stream
+    name: Say We Rad
   subject:
     this_is_you: This is you!
   sure: Are you sure?

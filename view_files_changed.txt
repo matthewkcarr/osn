@@ -1,0 +1,4 @@
+#	modified:   app/views/frontpage/_presentation_default.html.erb
+#	modified:   app/views/layouts/_footer.html.erb
+#	modified:   app/views/layouts/_logo_out.html.erb
+#	modified:   app/views/layouts/application.html.erb

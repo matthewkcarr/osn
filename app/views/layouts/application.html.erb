@@ -33,15 +33,28 @@
   </head>
   
   <body>
-    <div class="container-fluid">
-      <div class="wrapper">
-        <%= render :partial => "layouts/header" %>
+    <div class="logo-header">
+      <div class="bricks">
+      </div>
+      <div class="container-fluid logo">
+        <%= link_to(image_tag('logo_top.png', class: "logo", :alt => t('site.name')), root_path) %>
+        <div class="wrapper"> <!-- this is weird right now -->
+          <%= render :partial => "layouts/header" %>
+        </div>
+      </div>
+      <div class="gray-border">
+      </div>
+    </div>
 
+    <div class="container-fluid content">
+      <div class="wrapper">
         <%= flashy %>
 
         <%= yield %>
       </div>  
-      <%= render :partial => "layouts/footer" %>
     </div>
+
+    <%= render :partial => "layouts/footer" %>
+
   </body>
 </html>
