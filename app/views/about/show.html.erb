@@ -1,0 +1,58 @@
+<section class="activities">
+  <header>
+    <h2 class="colorfont">
+        About Us
+    </h2>
+  </header>
+
+  <div class="personnel">
+
+    <div class="person">
+      <div class="personnel_image left">
+        <div class="photo">
+          <%= link_to( image_tag('personnel_photos/matt_carr2.jpg'), user_path( User.find_by_slug('matthewkcarr')) ) %>
+        </div>
+      </div>
+      <div class="info left">
+        <b>Founder</b><br>  
+        <small>
+          Matthew Carr was adopted at birth. He is working hard to keep say we rad online for you.  He has a big heart for orphaned, fostered, and adopted people; that is why he is doing all of the software development, and paying for the server costs.  Get in touch with him <%= link_to 'here', user_path( User.find_by_slug('matthewkcarr')) %>
+        </small>
+      </div>
+      <div class="clear">
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<div class="clear">
+</div>
+<div class="credits">
+  <h1>
+    <h2 class="colorfont">
+        Credits
+    </h2>
+  </h1>
+  <div class="technology">
+    You can read about the technology that we use <%= link_to 'here', technology_about_path %> <br>
+  </div>
+  <div>
+    On the pages of saywerad.com we use creative commons images. Links below will take you to the source of the found art, and contact info for the artist where available.  
+    <br>
+    <br>
+    <a href="http://www.flickr.com/photos/danielavladimirova/5389942776/">Scattered photos by Daniela Vladimirova</a> 
+    <br/>
+    <br>
+    <a href="http://www.flickr.com/photos/creative_tools/5299374697/" title="CreativeTools.se - PackshotCreator - 3D printed - ZPrinter - Xmas gift box - Julklappslåda by Creative Tools, on Flickr">The purple present box by creative tools sweden</a>
+    <br>
+    <br>
+    <a href="http://www.flickr.com/photos/horiavarlan/4273913228/" title="Scattered puzzle pieces next to solved fragment by Horia Varlan, on Flickr">Puzzle pieces by Horia Varlan</a>
+    <br>
+    <br>
+    <a href="http://www.deviantart.com/#/art/What-is-he-looking-at-206714344?hf=1">Mascot we use on every page by tjoepoe</a>
+    <br>
+    <br>
+    <a href="http://www.flickr.com/photos/_barbarella/2924762607/">Person with mask face by Bárbara Fonseca</a>
+  </div>
+</div>

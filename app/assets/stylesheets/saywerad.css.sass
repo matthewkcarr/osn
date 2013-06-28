@@ -5,6 +5,10 @@ $light_purple: #a895b6
 
 /* all pages / frontpage */
 
+body 
+  background-image: url('tileable_marble.png')
+  background-repeat: repeat
+
 a
   color: $purple
   text-decoration: underline
@@ -32,6 +36,16 @@ a:hover, a:focus
   background-repeat: repeat
   width: 100%
   height: 10px
+
+footer #mascot.container-fluid
+  background-color: #F9F9F9
+  background: -moz-linear-gradient(top, rgba(249,249,249,0) 0%, rgba(249,249,249,1) 100%) /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,0)), color-stop(100%,rgba(249,249,249,1))) /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(249,249,249,0) 0%,rgba(249,249,249,1) 100%) /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(249,249,249,0) 0%,rgba(249,249,249,1) 100%) /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(249,249,249,0) 0%,rgba(249,249,249,1) 100%) /* IE10+ */
+  background: linear-gradient(to bottom, rgba(249,249,249,0) 0%,rgba(249,249,249,1) 100%) /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f9f9f9', endColorstr='#f9f9f9',GradientType=0 ) /* IE6-9 */
 
 .gray-border
   background-color: #E3E3E3
@@ -126,6 +140,14 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
   padding: 0
 
 
+#sidebar
+  background-color: #F9F9F9
+#toolbar
+  background-color: #F9F9F9
+
+.activities, #profile-info
+  background-color: #F9F9F9
+  
 #sidebar #suggestions .contact .add .btn-group button, #sidebar #pendings .contact .add .btn-group button
   border: 1px solid $purple
   background-color: white !important
@@ -182,6 +204,9 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
   background-color: $purple !important
 
 /*contacts */
+#contacts .contacts
+  background-color: #F9F9F9
+
 #contacts .contacts .add .btn-group button
   border: 1px solid $purple
 
@@ -195,6 +220,7 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
 
 #calendar .fc-button.fc-state-default
   border: 1px solid $purple
+  color: $purple
 
 #calendar .fc-button.fc-button-next.fc-state-default, #calendar .fc-button.fc-button-prev.fc-state-default
   color: $purple
@@ -228,6 +254,9 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
   border: 1px solid $purple
 
 /* conversations */
+.conversations
+  background-color: #f9f9f9
+
 #conversations .conversations .conversation .content_left .avatar img
   max-width: 85px
   max-height: 85px
@@ -245,6 +274,8 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
   background-color: $light_purple
 
 /* search */
+#explore-content
+  background-color: #F9F9F9
 #explore-header .btn, #explore-header .connectChatButton
   border: 1px solid $purple
 #explore-header .btn:hover, #explore-header .connectChatButton:hover
@@ -257,3 +288,108 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
   border: 1px solid $purple
 #chat_partial .chat_off input[type="submit"]:hover
   background-color: $purple
+
+/*profile */
+#profile #profile-info .avatar form.edit_actor
+  background-color: transparent
+
+.edit_icon
+  a
+    text-decoration: none
+
+#profile #profile-info .tags .briefing span, #profile #profile-info .personal .briefing span, #profile #profile-info .comunication-info .briefing span, #profile #profile-info .experience .briefing span, #profile #profile-info .avatar .briefing span
+  background-color: $light_purple 
+  color: white
+  border: 1px solid $purple
+
+#profile #profile-info .tags form.edit_profile input[type="submit"], #profile #profile-info .personal form.edit_profile input[type="submit"], #profile #profile-info .comunication-info form.edit_profile input[type="submit"], #profile #profile-info .experience form.edit_profile input[type="submit"], #profile #profile-info .avatar form.edit_profile input[type="submit"]
+  background-color: $purple 
+
+#profile #profile-info .tags form.edit_profile input[type="submit"]:hover, #profile #profile-info .personal form.edit_profile input[type="submit"]:hover, #profile #profile-info .comunication-info form.edit_profile input[type="submit"]:hover, #profile #profile-info .experience form.edit_profile input[type="submit"]:hover, #profile #profile-info .avatar form.edit_profile input[type="submit"]:hover
+  background-color: white !important
+  border: 1px solid $purple
+  color: $purple
+
+.select2-container
+  padding-bottom:  17px
+/* about */
+.credits
+  background-color: #F9F9F9
+.left 
+  float: left
+
+.clear
+  clear: both
+
+.personnel
+  margin-top: 15px
+  background-color: white
+  width: 700px
+  height: auto
+
+.personnel_image 
+  width: 170px
+  .photo
+    max-width: 150px
+    max-height: 150px
+.personnel .info
+  width: 500px
+.credits
+  margin-top: 80px
+
+/* pictures */
+#comments div.new_comment form.new_comment input[type="submit"]
+  background-color: $purple
+#comments div.new_comment form.new_comment input[type="submit"]:hover
+  color: $purple
+  border: 1px solid $purple
+#document-info .counters .counter, .picture .details .tab-content, .audio .details .tab-content, .video .details .tab-content, .documents .details .tab-content
+  color: $light_purple 
+
+/*files / repository */
+.repository
+  background-color: #f9f9f9
+#repository .repository .btn, #repository .repository .connectChatButton
+  border: 1px solid $purple
+  text-decoration: none
+#repository .repository .btn:hover, #repository .repository .connectChatButton:hover
+  background-color: $purple !important
+
+/* notifications */
+.notifications
+  background-color: #f9f9f9
+#notifications .notifications .read_all a:hover
+  color: $dark_purple
+
+/* input focus */
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus
+  border-color: rgba(168, 149, 182, 0.8)
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(168, 149, 182, 0.6)
+  outline: 0 none
+
+/* relations */
+.relation_customs
+  background-color: #F9F9F9
+
+.postit
+  font-size: 14pt
+    
+#new_relation .new_relation_custom .btn, #new_relation .new_relation_custom .connectChatButton
+  background-color: $purple
+#new_relation .new_relation_custom .btn:hover, #new_relation .new_relation_custom .connectChatButton:hover
+  border: 1px solid $purple
+  color: $purple
+
+/* settings */
+.settings
+  background-color: #f9f9f9
+
+/* errors */
+
+#error_explanation 
+  margin-left: 0
+  h2
+    font-size: 12pt
+
+section#forgot-pass section.forgot header form#new_user.new_user div#error_explanation h2
+  margin-left: 0
