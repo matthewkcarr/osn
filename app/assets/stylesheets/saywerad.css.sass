@@ -1,6 +1,7 @@
 
 $purple: #7c627b
 $dark_purple: #5f405e
+$light_purple: #a895b6
 
 /* all pages / frontpage */
 
@@ -54,6 +55,12 @@ a:hover, a:focus
   background-color: white !important
   text-decoration: none
   color: $purple
+
+.timeline .media .media-body .event .details input[type="submit"]
+  border: 1px solid $purple
+
+.timeline .media .media-body .event .details input[type="submit"]:hover
+  background-color: $purple !important
 
 input[type="submit"]
   border: 1px solid $purple
@@ -128,7 +135,9 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
 #sidebar #suggestions .contact .add .btn-group button:hover, #sidebar #pendings .contact .add .btn-group button:hover
   background-color: $purple !important
 
-#sidebar #suggestions .contact .add .btn-group button .caret, #sidebar #pendings .contact .add .btn-group button .caret, .activities .wall_input .form-privacy .btn-group button .caret
+#sidebar #suggestions .contact .add .btn-group button .caret, #sidebar #pendings .contact .add .btn-group button .caret, .activities .wall_input .form-privacy .btn-group button .caret, #contacts .contacts .add .btn-group button .caret, 
+#sidebar #suggestions .contact .add .open .btn .caret, #sidebar #suggestions .contact .add .open .connectChatButton .caret, #sidebar #pendings .contact .add .open .btn .caret, #sidebar #pendings .contact .add .open .connectChatButton .caret,
+#toolbar .contact-button .btn-group button .caret, #toolbar .contact-button .open .btn .caret, #toolbar .contact-button .open .connectChatButton .caret
   border-bottom-color: $purple
   border-top-color: $purple
 
@@ -136,4 +145,109 @@ header .navbar-inner .logo, header .navbar-inner .logo-responsive
   border: 1px solid $purple
 
 .activities .wall_input .form-privacy .btn-group button:hover
+  background-color: $purple !important
+
+#days tbody tr .today
+  border: 1px solid $purple !important
+#days tbody tr .today a
+  color: $purple
+
+#user #new_comment .btn, #user #new_comment .connectChatButton, #group #new_comment .btn, #group #new_comment .connectChatButton, #home #new_comment .btn, #home #new_comment .connectChatButton, #time-line #new_comment .btn, #time-line #new_comment .connectChatButton
+  background-color: $purple
+  background-image: none
+
+
+/*navigation / toolbar buttons */
+.toolbar-profile .toolbar_menu ul li .icon_navbar-resources
+  background-position: -175px -8px
+
+.toolbar-profile .toolbar_menu ul li
+  border: 1px solid $purple
+
+.toolbar-profile .toolbar_menu ul li:hover
+  background-color: $purple !important
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus
+  background-color: $purple !important
+  background-image: none
+  color: white
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a
+  background-color: $dark_purple !important
+  background-image: none
+
+#toolbar .contact-button .btn-group button
+  border: 1px solid $purple
+#toolbar .contact-button .btn-group button:hover
+  background-color: $purple !important
+
+/*contacts */
+#contacts .contacts .add .btn-group button
+  border: 1px solid $purple
+
+#contacts .contacts .add .btn-group button:hover
+  background-color: $purple !important
+
+/* events */
+#calendar .fc-button.fc-state-disabled
+  background-color: $purple !important
+  border: 1px solid $purple
+
+#calendar .fc-button.fc-state-default
+  border: 1px solid $purple
+
+#calendar .fc-button.fc-button-next.fc-state-default, #calendar .fc-button.fc-button-prev.fc-state-default
+  color: $purple
+#calendar .fc-button.fc-button-next.fc-state-default:hover, #calendar .fc-button.fc-button-prev.fc-state-default:hover
+  color: white
+
+#calendar .fc-button.fc-state-default.fc-button-agendaWeek, #calendar .fc-button.fc-state-default.fc-button-month, #calendar .fc-button.fc-state-default.fc-button-agendaDay
+  color: $purple
+#calendar .fc-button.fc-state-default.fc-button-agendaWeek:hover, #calendar .fc-button.fc-state-default.fc-button-month:hover, #calendar .fc-button.fc-state-default.fc-button-agendaDay:hover
+  color: white
+
+#calendar .fc-button.fc-state-default:hover
+  background-color: $purple !important
+  border: 1px solid white
+
+#calendar .fc-button.fc-state-active
+  background-color: $light_purple !important
+  color: white !important
+
+#calendar .fc-button:hover
+  color: white !important
+
+#calendar .fc-button.fc-state-active:hover
+  color: white
+
+
+/* alert */
+.alert-notice
+  background-color: $light_purple 
+  color: white
+  border: 1px solid $purple
+
+/* conversations */
+#conversations .conversations .conversation .content_left .avatar img
+  max-width: 85px
+  max-height: 85px
+
+.conversation_full .message .media .pull-left img
+  max-width: 50px
+  max-height: 50px
+
+/*groups */
+.toolbar-profile .toolbar_menu ul li:hover .icon_navbar-message 
+  background-position: -55px -41px
+
+/* loading */
+.progress-striped .bar
+  background-color: $light_purple
+
+/* search */
+#explore-header .btn, #explore-header .connectChatButton
+  border: 1px solid $purple
+#explore-header .btn:hover, #explore-header .connectChatButton:hover
+  background-color: $purple !important
+#explore-header .btn.active, #explore-header .active.connectChatButton
   background-color: $purple !important

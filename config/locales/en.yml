@@ -540,7 +540,7 @@ en:
     name: Public
   repository:
     filter: filter
-    title: Repository
+    title: Files
     order:
       by: Order by
       last_modified: Last modified

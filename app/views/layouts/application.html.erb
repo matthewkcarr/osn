@@ -32,7 +32,7 @@
     </script>
   </head>
   
-  <body class="<%= controller.controller_name.downcase %> <%= user_signed_in? ? "signed_in": "signed_out" %>">
+  <body class="page_<%= controller.controller_name.downcase %> <%= user_signed_in? ? "signed_in": "signed_out" %>">
 
     <%= render :partial => "layouts/header" %>
 
