@@ -64,5 +64,15 @@ Network::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
-  config.action_mailer.default_url_options = { :host => 'theonetwork.com' }
+  config.action_mailer.default_url_options = { :host => 'saywerad.com' }
+
+  # Say we rad production mailer
+  config.action_mailer.smtp_settings = {
+    address: ENV['SMTP_ADDRESS'],
+    authentication: :login,
+    domain: 'saywerad.com',
+    password: ENV['SMTP_PASSWORD'],
+    port: 25,
+    user_name: ENV['SMTP_USERNAME']
+  }
 end
