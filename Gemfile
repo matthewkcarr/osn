@@ -25,7 +25,8 @@ gem 'rspec-rails'
 
 #gem 'thinking-sphinx', '~> 3.0.2'
 gem 'social_stream', '2.0.1'
-
+gem 'execjs'
+gem 'therubyracer'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
