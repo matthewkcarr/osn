@@ -73,6 +73,7 @@ Network::Application.configure do
     domain: 'saywerad.com',
     password: ENV['SMTP_PASSWORD'],
     port: 25,
-    user_name: ENV['SMTP_USERNAME']
+    user_name: ENV['SMTP_USERNAME'],
+    enable_starttls_auto: true
   }
 end
