@@ -17,6 +17,8 @@ Network::Application.routes.draw do
   resource :about, :controller => 'about' do
     collection do
       get 'technology'
+      get 'terms'
+      get 'privacy'
     end
   end
 

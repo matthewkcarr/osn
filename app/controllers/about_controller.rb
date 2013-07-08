@@ -5,4 +5,10 @@ class AboutController < ApplicationController
 
   def technology
   end
+
+  def terms
+  end
+
+  def privacy
+  end
 end
